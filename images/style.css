@@ -1,0 +1,72 @@
+body{ 
+  margin: 0px;
+  font-family: 'Gemunu Libre', sans-serif;}
+h1{
+  font-size: 50px;
+  font-family: 'Bungee Spice', cursive;
+}
+h2{
+  font-size: 60px;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+p{
+  color: dimgray;
+}
+.exp{ font-size: 40px;}
+.half-width{
+  width: 40%;
+  margin-left: 5%;
+  padding: 2%;
+  float: left;
+}
+.half-width img{
+  width: 100%;
+}
+.top-banner{
+  background-image: url( top-banner.png );
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+  padding-bottom:50px;
+}
+.link-button{
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  background-color: orange;
+}
+.dream-area{
+  background-image: url(dream-bg.png );
+  background-repeat: no-repeat;
+  background-position: right;  
+}
+.orange-highlight{
+  color: orange;
+}
+.single-border{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+.experience-area{
+  background-image:url( exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient( lightsalmon,tomato);
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient( blue,cyan );
+  border-image-slice: 1;  
+}
+#finish{
+  text-align: center;
+}
